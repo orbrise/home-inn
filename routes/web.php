@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//tet comment
 Route::group(['middleware' => 'web'], function(){
 
 Route::get('/', 'HomeController@index');
