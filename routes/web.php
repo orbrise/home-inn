@@ -11,6 +11,7 @@
 |
 */
 //tet comment
+//test 2
 Route::group(['middleware' => 'web'], function(){
 
 Route::get('/', 'HomeController@index');
